@@ -1,0 +1,284 @@
+body {
+  margin: 0px auto;
+  margin-bottom: 0px;
+  background-color: #f2f2f2;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+.content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  margin: 0 auto;
+}
+.container .introduction {
+  width: 640px;
+}
+.container .logo {
+  -webkit-flex: 1;
+  flex: 1;
+  background-color: #fff;
+  margin-left: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+  position: relative;
+}
+.container .logo .logo-image {
+  width: 200px;
+  height: 200px;
+  margin: 20px auto;
+  margin-top: 60px;
+  background-image: url("images/logoimage.jpg");
+}
+.container .logo .logo-blog {
+  color: #757575;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  margin: 5px 20px 5px 20px;
+  font-size: 18px;
+  font-weight: 800;
+  bottom: 0;
+  font-family: 'Raleway', sans-serif;
+}
+.container .banner {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 300px;
+  background: no-repeat;
+  background-image: url("images/background.jpg");
+}
+.container .banner .motto {
+  position: relative;
+  text-shadow: 1px 1px 8px #444;
+  left: 10%;
+  top: 10%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 200;
+  font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+.container .author {
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: 0 0 2px #ddd;
+  display: flex;
+  background: #fff;
+}
+.container .author .author-avatar {
+  margin: 5px 20px 5px 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  background-image: url("images/avatar.jpg");
+  background-size: 100%;
+}
+.container .author .author-name {
+  height: 40px;
+  line-height: 40px;
+  color: #757575;
+  flex: 1;
+  margin: 5px 20px 5px 0px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+}
+.post-meta {
+  display: flex;
+}
+.post-meta .post-author {
+  width: 51px;
+  height: 51px;
+  border-radius: 51px;
+  background-image: url("images/avatar.jpg");
+  background-size: 100%;
+  margin-right: 25px;
+}
+.post-meta .post-author-name .author-name {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 800;
+}
+.post-meta .post-author-name .post-time {
+  font-size: 16px;
+}
+.header {
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  display: flex;
+  align-item: baseline;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.header .logo-wrapper {
+  margin-left: 50px;
+  padding: 20px 0px;
+}
+.header .logo-wrapper .logo {
+  text-decoration: none;
+  color: #757575;
+  font-family: "Comic Sans MS", cursive, LiSu, sans-serif;
+  font-size: 25px;
+}
+.header .logo-wrapper .logo:hover {
+  color: #368ccb;
+}
+.header .navbar {
+  margin: 20px 10px 20px 20px;
+}
+.header .menu {
+  margin: 0;
+  padding: 0;
+}
+.header .menu .menu-item {
+  display: inline-block;
+  margin-right: 40px;
+}
+.header .menu .menu-item-link {
+  color: #757575;
+  text-decoration: none;
+  font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+.header .menu .menu-item-link:hover {
+  color: #368ccb;
+}
+.main {
+  max-width: 900px;
+  margin: 20px auto;
+}
+.post {
+  margin: 1em auto;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 2px #ddd;
+}
+.post .post:first-child {
+  margin-top: 0;
+}
+.post .post-title {
+  height: 240px;
+  padding: 24.72px;
+  background: center;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+}
+.post .post-title .title {
+  color: #fff;
+  font-size: 34px;
+  position: absolute;
+  text-shadow: 1px 1px 8px #444;
+  bottom: 0px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-family: Roboto, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+}
+.post .post-title .post-title-link {
+  color: #368ccb;
+  text-decoration: none;
+}
+.post .post-title .post-title-link:hover {
+  color: #003d79;
+}
+.post .post-content {
+  color: #757575;
+  padding: 0px 40px;
+}
+.post .post-content p {
+  font-size: 15px;
+  margin: 15px 0px;
+}
+.post .post-content a {
+  color: #368ccb;
+  text-decoration: none;
+}
+.post .post-content a:hover {
+  color: #003d79;
+}
+.post .post-content blockquote {
+  margin: 15px 0;
+  padding-left: 20px;
+  border-left: 4px solid #ddd;
+}
+.post .post-content blockquote p {
+  color: #616161;
+}
+.post .post-meta {
+  color: #bababa;
+  margin: 10px 10px 10px 20px;
+}
+.post .post-comment {
+  background-color: #eee;
+  height: 60px;
+}
+.page-nav {
+  max-width: 900px;
+  height: 60px;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.page-nav .page {
+  text-align: center;
+  padding: 15px 20px 15px 20px;
+}
+.page-nav .page a {
+  text-decoration: none;
+  color: #757575;
+}
+.page-nav .page a:hover {
+  color: #368ccb;
+}
+.page-nav .page .prev {
+  float: left;
+}
+.page-nav .page .next {
+  float: right;
+}
+.page-nav .page .page-number {
+  margin-right: 5px;
+}
+.foot {
+  background-color: #fff;
+  margin-top: 60px;
+  height: 40px;
+  padding: 40px;
+  text-align: center;
+  color: #757575;
+}
+.foot .copyright {
+  font-size: 14px;
+}
+.foot .themes {
+  font-size: 14px;
+}
+.archive {
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 2px #ddd;
+}
+.archive a {
+  text-decoration: none;
+  color: #757575;
+}
+.archive a:hover {
+  color: #003d79;
+}
+.archive .post-archive {
+  padding: 20px 40px 20px 40px;
+}
+.archive .post-item {
+  list-style-type: none;
+  margin: 10px 20px;
+}
